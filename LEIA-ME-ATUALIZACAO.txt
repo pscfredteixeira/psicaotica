@@ -1,0 +1,34 @@
+
+
+ATUALIZAÇÕES SOLICITADAS – 15/10/2026
+1. Hero inicial da home restaurado à versão visual aprovada: “PENSAR JUNTO É ABRIR caminhos.” com cadeira e duas chamadas.
+2. Seção Formulário de acolhimento na home; botão remete à página Terapia ORIGINAL do Wix, já que o formulário em si usa backend Wix e sua URL direta não foi verificada.
+3. Todos os 20 cartões de profissionais (9 O Coletivo, 8 Terapia, 3 Supervisão) exibem os quatro canais: E-mail, Substack, WhatsApp e Instagram. Somente os e-mails cuja URL havia sido conferida funcionam como links; os demais canais permanecem identificados como PENDENTES para não inventar contatos, e não acionam links falsos.
+4. Nas 8 páginas internas, o topo exibe título, breadcrumb e grande fotografia à direita + faixa colorida. Para a página Terapia, imagem de referência foi recortada do print enviado pelo próprio usuário; outras usam as fotografias do coletivo já autorizadas.
+5. Texto das páginas e biografias não foi reescrito nesta atualização.
+
+PENDÊNCIAS PARA A VERSÃO FINAL: URLs individuais de Substack, WhatsApp, Instagram e e-mails ainda não disponíveis em alguns cartões; link direto do formulário Wix.
+
+
+ATUALIZAÇÃO v4 — CONTATOS INDIVIDUAIS — 15/10/2026
+Os 20 cartões nas páginas O Coletivo, Terapia e Supervisão agora seguem a mesma base de contatos por pessoa. Ao localizar um contato verificado de um profissional, ele aparece também em suas fichas nas outras páginas. Foi acrescentada a opção Site; para Naomi a URL verificada é a página pública de links Linktree, não um domínio próprio.
+- E-mails confirmados diretamente pela página /o-coletivo e no boletim oficial Psicaótica (Yago)
+- Instagram confirmados em newsletters da Psicaótica: @lora.psicaotica, @pscfredteixeira, @yago.psicanalista e @escrituraclinica
+- WhatsApp de Loraine e Yago montados a partir dos telefones publicados nas newsletters da Psicaótica. Esses números foram publicados para contato profissional na data das matérias; ainda não foi possível confirmar que o link que o site original usa é idêntico.
+- Site/Links Naomi: https://linktr.ee/naomilustosa (página de links verificada da pessoa)
+- Nenhum URL individual de Substack pôde ser confirmado por pessoa; não se usa a newsletter coletiva para fingir que cada membro tem uma newsletter individual.
+FONTE PRINCIPAL SOLICITADA: https://coletivopsicaotica.wixsite.com/site/o-coletivo
+FONTES COMPLEMENTARES PÚBLICAS:
+https://psicaotica.substack.com/p/newsletter-psicaotica-5
+https://psicaotica.substack.com/p/newsletter-psicaotica-9-vesperas
+https://psicaotica.substack.com/p/newsletter-psicaotica-8-escutar-um
+https://psicaotica.substack.com/p/newsletter-psicaotica-4
+https://linktr.ee/naomilustosa
+PENDÊNCIAS IMPORTANTES: A cópia textual da página Wix não expõe os destinos de todos os ícones visuais. Para reprodução exata dos links que estão neles, enviar o HTML salvo pelo navegador como 'Página da Web completa' ou exportar a lista de URLs individuais; os links pendentes permanecem sem URL deliberadamente.
+FICHEIRO DE AUDITORIA: CONTATOS-CONFERENCIA.csv lista todos os 20 cartões e os URLs efetivamente usados; campos vazios são pendências de verificação.
+
+
+ATUALIZAÇÃO v5 – 15/10/2026
+- HOME: seção “TRÊS FRENTES. UMA REDE.” com quatro painéis editoriais (Clínica, Comunicação, Formação, Rede), respeitando os textos dos anexos fornecidos pelo usuário. A navegação de Comunicação direciona a Redes, e a da Rede ao coletivo, sem criar páginas extras.
+- PALETA: todo o hexadecimal #ec8d42 substituído por #ec8d42 em todos os arquivos de estilo e páginas HTML. Textos escuros sobre o painel laranja, para legibilidade.
+- Demais páginas, textos, fichas e contatos preservados da versão v4.

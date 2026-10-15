@@ -1,0 +1,36 @@
+COLETIVO PSICAÓTICA — HTML MULTIPÁGINAS FIEL À ESTRUTURA ORIGINAL
+
+FONTE DE CONTEÚDO: https://coletivopsicaotica.wixsite.com/site
+
+NOVE PÁGINAS (cada página tem seu próprio arquivo HTML):
+- index.html = https://coletivopsicaotica.wixsite.com/site
+- clinica.html = https://coletivopsicaotica.wixsite.com/site/cl%C3%ADnica-1
+- terapia.html = https://coletivopsicaotica.wixsite.com/site/terapia
+- grupos-terapeuticos.html = https://coletivopsicaotica.wixsite.com/site/grupos-terap%C3%AAuticos
+- formacao.html = https://coletivopsicaotica.wixsite.com/site/forma%C3%A7%C3%A3o
+- supervisao.html = https://coletivopsicaotica.wixsite.com/site/c%C3%B3pia-forma%C3%A7%C3%A3o
+- grupos-de-estudo.html = https://coletivopsicaotica.wixsite.com/site/c%C3%B3pia-supervisao
+- redes.html = https://coletivopsicaotica.wixsite.com/site/redes
+- o-coletivo.html = https://coletivopsicaotica.wixsite.com/site/o-coletivo
+
+CONTEÚDO
+- Textos de cada página foram transcritos dos textos visíveis no site antigo em 15/10/2026, sem substituir por textos criados.
+- Perfis são específicos por área: 9 em O Coletivo; 8 em Terapia; 3 em Supervisão.
+- Mantidos também textos de rascunho visíveis na fonte (por ex.: '2ª opção', '??? ainda não sei') para respeitar sua exigência de conteúdo inalterado.
+- Fotografias das fichas apontam aos arquivos verdadeiros no CDN original Wix. Precisam de acesso à internet para carregar. Logo, foto de cadeira, cadeira com gato e ícone foram incluídos localmente em assets/. A prévia offline não mostra as fotos remotas das pessoas.
+- E-mails confirmados foram transformados em botões reais com ícone. Outros ícones sociais aparecem no site original, mas a versão textual acessível pela ferramenta não expõe todos os URLs individuais. Esses LINKS INDIVIDUAIS DE REDES SOCIAIS SEGUEM PENDENTES DE VERIFICAÇÃO; não foram inventados.
+- Os destinos Substack e Instagram oficiais da página Redes foram recuperados por navegação.
+- O botão 'Acessar o Formulário' da página Terapia abre a página original onde o formulário pode ser acessado. O HTML não implementa o backend do Wix.
+- O texto de rodapé foi copiado do site antigo.
+- NÃO EXISTEM páginas extras inventadas 'Comunicação', 'Pessoas' ou 'Contato'.
+
+ABRIR
+1. Extraia o ZIP completo, preservando a pasta assets/.
+2. Abra index.html no navegador e navegue pelos menus e páginas internas.
+3. Para publicar em uma hospedagem de site estático, envie todo o conteúdo da pasta extraída, mantendo index.html na raiz.
+4. HTML estático não se converte automaticamente em elementos editáveis do editor visual do Wix.
+
+ESTADO DA MIGRAÇÃO
+A organização de páginas e a transcrição de textos visíveis foram concluídas.
+Para conclusão de 100% dos recursos do Wix original: conferir manualmente links sociais individuais, formulário de acolhimento e imagens cujo CDN não carregar.
+NENHUMA alteração foi feita no site original.

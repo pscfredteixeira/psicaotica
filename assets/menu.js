@@ -1,0 +1,1 @@
+(()=>{const b=document.getElementById('menubutton'),n=document.getElementById('mainnav');if(!b||!n)return;b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',String(o));b.textContent=o?'×':'☰'});})();
