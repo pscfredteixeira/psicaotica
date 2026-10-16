@@ -186,6 +186,9 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 
 /* Agenda temporariamente oculta até a confirmação dos eventos. */
 .agenda-quatro[hidden]{display:none!important}
-/* Quarto card da home: título O COLETIVO nos diferentes tamanhos de tela. */
-.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(39px,4.2vw,70px);letter-spacing:-.075em}
-@media(max-width:760px){.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(34px,8.5vw,56px)}}
+/* Segundo card O COLETIVO e quarto card REDES DE COMUNICAÇÃO */
+.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(38px,4.2vw,68px);letter-spacing:-.072em;overflow-wrap:normal}
+.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(30px,3.75vw,59px);letter-spacing:-.073em;overflow-wrap:normal}
+@media(max-width:900px){.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(36px,4.7vw,56px)}.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(28px,3.7vw,46px)}}
+@media(max-width:760px){.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(39px,9vw,60px)}.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(28px,7.4vw,52px)}}
+@media(max-width:390px){.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(25px,7vw,30px)}}
