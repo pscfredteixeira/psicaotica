@@ -147,3 +147,35 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 /* Ajuste de largura para o título mais longo no celular */
 @media(max-width:760px){.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(32px,8.7vw,54px);overflow-wrap:normal;letter-spacing:-.073em}}
 
+
+/* Agenda editorial de quatro cards na home. Os exemplos não representam eventos confirmados. */
+.agenda-quatro{padding:90px 0 108px;background:var(--paper);color:var(--deep)}
+.agenda-quatro-heading{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,6vw,100px);align-items:end;margin-bottom:40px}
+.agenda-quatro-kicker{display:flex;align-items:center;gap:16px;margin:0 0 26px;font-size:12px;letter-spacing:.2em;font-weight:850}
+.agenda-quatro-kicker:before{content:"";width:37px;height:3px;background:var(--coral);display:block}
+.agenda-quatro-titleblock h2{font-size:clamp(50px,6.2vw,96px);letter-spacing:-.076em;line-height:.91;margin:0;color:var(--deep);font-weight:900}
+.agenda-quatro-titleblock h2 em{display:inline-block;font-family:Georgia,'Times New Roman',serif;font-size:1.02em;font-weight:400;color:var(--coral);letter-spacing:-.08em}
+.agenda-quatro-intro{border-top:2px solid var(--violet);padding-top:25px;max-width:600px}
+.agenda-quatro-intro .agenda-quatro-lead{font-size:clamp(20px,2.05vw,29px);line-height:1.34;letter-spacing:-.035em;margin:0 0 14px}
+.agenda-quatro-intro p:last-child{color:#756374;font-size:14px;line-height:1.55;margin:0}
+.agenda-quatro-notice{font-size:12px;color:#766476;line-height:1.55;margin:0 0 22px;border-left:3px solid var(--coral);padding:3px 0 3px 13px}
+.agenda-quatro-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px;align-items:stretch}
+.agenda-quatro-card{min-width:0;display:flex;flex-direction:column;border:1px solid var(--hair);background:#faf6f1;overflow:hidden}
+.agenda-quatro-card.agenda-quatro-lilac{background:#dfd0f6}
+.agenda-quatro-card.agenda-quatro-blush{background:#f3dfdc}
+.agenda-quatro-photo{width:100%;aspect-ratio:1.82/1;height:auto;object-fit:cover;display:block;background:#e3cfdc}
+.agenda-quatro-content{display:flex;flex-direction:column;flex:1;padding:22px 22px 20px}
+.agenda-quatro-date{color:#bd5345;font-size:11px;font-weight:900;letter-spacing:.09em;line-height:1.5;margin:0 0 18px}
+.agenda-quatro-date span{font-size:10px;color:#7b6073}
+.agenda-quatro-content h3{font-size:clamp(22px,2.05vw,31px);line-height:1.08;letter-spacing:-.055em;font-weight:850;margin:0 0 14px;overflow-wrap:anywhere}
+.agenda-quatro-description{color:#675968;font-size:13px;line-height:1.6;margin:0 0 24px}
+.agenda-quatro-more{border-top:1px solid rgba(88,0,92,.4);margin-top:auto;padding-top:16px}
+.agenda-quatro-more summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px;list-style:none;font-size:10px;letter-spacing:.095em;font-weight:850;color:var(--deep);min-height:28px}
+.agenda-quatro-more summary::-webkit-details-marker{display:none}
+.agenda-quatro-more summary span{font-size:22px;line-height:1}
+.agenda-quatro-more summary:hover,.agenda-quatro-more summary:focus-visible{color:var(--coral)}
+.agenda-quatro-more[open] summary span{transform:rotate(90deg)}
+.agenda-quatro-more>p{border-top:1px solid var(--hair);margin:11px 0 0;padding:12px 0 0;color:#655667;font-size:12px;line-height:1.55}
+@media(max-width:1060px){.agenda-quatro{padding:75px 0 83px}.agenda-quatro-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.agenda-quatro-heading{grid-template-columns:1fr 1fr}.agenda-quatro-content h3{font-size:30px}}
+@media(max-width:700px){.agenda-quatro{padding:58px 0 66px}.agenda-quatro-heading{display:block;margin-bottom:25px}.agenda-quatro-titleblock h2{font-size:clamp(48px,10.4vw,75px)}.agenda-quatro-intro{margin-top:28px;padding-top:18px}.agenda-quatro-intro .agenda-quatro-lead{font-size:20px}.agenda-quatro-grid{grid-template-columns:1fr;gap:16px}.agenda-quatro-photo{aspect-ratio:2.05/1}.agenda-quatro-content{padding:20px 23px 23px}.agenda-quatro-content h3{font-size:30px}.agenda-quatro-description{font-size:14px}.agenda-quatro-more summary{font-size:11px}.agenda-quatro-notice{font-size:11px}}
+@media(max-width:390px){.agenda-quatro-titleblock h2{font-size:45px}.agenda-quatro-content{padding:18px}.agenda-quatro-content h3{font-size:27px}}
