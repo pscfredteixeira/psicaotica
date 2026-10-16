@@ -192,3 +192,10 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 @media(max-width:900px){.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(36px,4.7vw,56px)}.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(28px,3.7vw,46px)}}
 @media(max-width:760px){.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(39px,9vw,60px)}.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(28px,7.4vw,52px)}}
 @media(max-width:390px){.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(25px,7vw,30px)}}
+
+/* Home: Clínica e O Coletivo com títulos na mesma altura da primeira linha */
+.axes-home .axes-grid>.axis:nth-child(-n+2){display:grid;grid-template-rows:auto 1fr auto}
+.axes-home .axes-grid>.axis:nth-child(-n+2) .axis-text{margin-top:0;align-self:start;padding-top:58px}
+.axes-home .axes-grid>.axis:nth-child(-n+2) .axis-footer{margin-top:0}
+@media(max-width:900px){.axes-home .axes-grid>.axis:nth-child(-n+2) .axis-text{padding-top:43px}}
+@media(max-width:760px){.axes-home .axes-grid>.axis:nth-child(-n+2) .axis-text{padding-top:34px}}
