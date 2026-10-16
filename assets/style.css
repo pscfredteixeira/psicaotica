@@ -179,3 +179,7 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 @media(max-width:1060px){.agenda-quatro{padding:75px 0 83px}.agenda-quatro-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.agenda-quatro-heading{grid-template-columns:1fr 1fr}.agenda-quatro-content h3{font-size:30px}}
 @media(max-width:700px){.agenda-quatro{padding:58px 0 66px}.agenda-quatro-heading{display:block;margin-bottom:25px}.agenda-quatro-titleblock h2{font-size:clamp(48px,10.4vw,75px)}.agenda-quatro-intro{margin-top:28px;padding-top:18px}.agenda-quatro-intro .agenda-quatro-lead{font-size:20px}.agenda-quatro-grid{grid-template-columns:1fr;gap:16px}.agenda-quatro-photo{aspect-ratio:2.05/1}.agenda-quatro-content{padding:20px 23px 23px}.agenda-quatro-content h3{font-size:30px}.agenda-quatro-description{font-size:14px}.agenda-quatro-more summary{font-size:11px}.agenda-quatro-notice{font-size:11px}}
 @media(max-width:390px){.agenda-quatro-titleblock h2{font-size:45px}.agenda-quatro-content{padding:18px}.agenda-quatro-content h3{font-size:27px}}
+
+/* O Coletivo: apresentação em coluna larga, sem imagem lateral */
+.collective-intro-wide{width:100%}
+.collective-intro-wide .long-copy{max-width:100%}
