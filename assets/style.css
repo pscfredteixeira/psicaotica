@@ -221,3 +221,7 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 /* Destaques editoriais exclusivos da apresentação O Coletivo */
 .collective-intro-wide .destaque-roxo{font-weight:700;color:#4b006e}
 .collective-intro-wide .destaque-laranja{font-weight:700;color:#ec8d42}
+
+/* Terapia: destaques editoriais limitados ao texto de apresentação */
+.therapy-intro .destaque-roxo{font-weight:700;color:#4b006e}
+.therapy-intro .destaque-laranja{font-weight:700;color:#ec8d42}
