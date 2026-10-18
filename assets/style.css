@@ -217,3 +217,7 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 .supervision-intro .supervision-highlight--violet{color:var(--violet)}
 .supervision-intro .supervision-highlight--orange{color:#b84e0e}
 .supervision-intro .long-copy p{margin-bottom:18px}
+
+/* Destaques editoriais exclusivos da apresentação O Coletivo */
+.collective-intro-wide .destaque-roxo{font-weight:700;color:#4b006e}
+.collective-intro-wide .destaque-laranja{font-weight:700;color:#ec8d42}
