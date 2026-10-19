@@ -225,3 +225,7 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 /* Terapia: destaques editoriais limitados ao texto de apresentação */
 .therapy-intro .destaque-roxo{font-weight:700;color:#4b006e}
 .therapy-intro .destaque-laranja{font-weight:700;color:#ec8d42}
+
+/* Destaques editoriais apenas nas introduções de Clínica e Grupos Terapêuticos */
+.clinic-intro .destaque-roxo,.therapeutic-groups-intro .destaque-roxo{font-weight:700;color:#4b006e}
+.clinic-intro .destaque-laranja,.therapeutic-groups-intro .destaque-laranja{font-weight:700;color:#ec8d42}
