@@ -128,7 +128,7 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 .axes-home .axes-head{margin-bottom:50px;align-items:end}
 .axes-home .axes-heading-block .eyebrow{margin:0 0 29px}
 .axes-home .axes-heading{font-size:clamp(56px,6.3vw,103px);line-height:.97;letter-spacing:-.077em;margin:0;color:var(--deep)}
-.axes-home .axes-heading span{color:var(--coral)}
+.axes-home .axes-heading span{color:var(--coral);font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:400;letter-spacing:-.075em;text-transform:none}
 .axes-home .axes-head>p{max-width:300px;color:#725d6f;font-size:15px;line-height:1.65;margin:0 2px 14px}
 .axes-home .axes-grid{gap:18px}
 .axes-home .axis{min-height:416px;padding:35px 40px 36px}
