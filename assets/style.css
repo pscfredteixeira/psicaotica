@@ -245,3 +245,6 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 
 /* iPad/tablet: manter o selo circular da home inteiramente dentro da foto. */
 @media (min-width:761px) and (max-width:1100px){.hero .hero-media .round-stamp{left:22px}}
+
+/* Acolhimento na home: terapia? com tipografia de caminhos em laranja */
+.home-acknowledgement h2 em{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:400;color:var(--coral);letter-spacing:-.075em;text-transform:none}
