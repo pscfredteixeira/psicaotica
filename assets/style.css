@@ -242,3 +242,6 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 /* Formação: cartão único informativo para Grupos de Estudo */
 .formation-one-card{grid-template-columns:minmax(0,620px);justify-content:center}
 .formation-one-card .section-tile{min-height:0}
+
+/* iPad/tablet: manter o selo circular da home inteiramente dentro da foto. */
+@media (min-width:761px) and (max-width:1100px){.hero .hero-media .round-stamp{left:22px}}
