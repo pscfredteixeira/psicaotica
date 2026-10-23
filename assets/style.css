@@ -145,7 +145,7 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 @media(max-width:760px){.axes-home{padding:77px 0 88px}.axes-home .axes-head{display:block;margin-bottom:34px}.axes-home .axes-heading{font-size:clamp(45px,10.9vw,82px)}.axes-home .axes-head>p{margin:22px 0 0;max-width:450px}.axes-home .axes-grid{grid-template-columns:1fr;gap:13px}.axes-home .axis{min-height:340px;padding:28px 26px}.axes-home .axis-text h3{font-size:clamp(46px,11vw,68px)}.axes-home .axis-text p{font-size:15px}.axes-home .axis-number{font-size:156px;right:24px;top:25px}}
 @media(max-width:400px){.axes-home .axis-text h3{font-size:45px}.axes-home .axes-heading{font-size:45px}.axes-home .axis{min-height:330px}}
 /* Ajuste de largura para o título mais longo no celular */
-@media(max-width:760px){.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(32px,8.7vw,54px);overflow-wrap:normal;letter-spacing:-.073em}}
+
 
 
 /* Agenda editorial de quatro cards na home. Os exemplos não representam eventos confirmados. */
@@ -186,14 +186,14 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 
 /* Agenda temporariamente oculta até a confirmação dos eventos. */
 .agenda-quatro[hidden]{display:none!important}
-/* Segundo card O COLETIVO e quarto card REDES DE COMUNICAÇÃO */
-.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(38px,4.2vw,68px);letter-spacing:-.072em;overflow-wrap:normal}
-.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(30px,3.75vw,59px);letter-spacing:-.073em;overflow-wrap:normal}
-@media(max-width:900px){.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(36px,4.7vw,56px)}.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(28px,3.7vw,46px)}}
-@media(max-width:760px){.axes-home .axis:nth-child(2) .axis-text h3{font-size:clamp(39px,9vw,60px)}.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(28px,7.4vw,52px)}}
-@media(max-width:390px){.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(25px,7vw,30px)}}
+/* Títulos longos na nova ordem: Redes de Comunicação (03) e O Coletivo (04) */
+.axes-home .axis:nth-child(3) .axis-text h3{font-size:clamp(30px,3.75vw,59px);letter-spacing:-.073em;overflow-wrap:normal}
+.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(38px,4.2vw,68px);letter-spacing:-.072em;overflow-wrap:normal}
+@media(max-width:900px){.axes-home .axis:nth-child(3) .axis-text h3{font-size:clamp(28px,3.7vw,46px)}.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(36px,4.7vw,56px)}}
+@media(max-width:760px){.axes-home .axis:nth-child(3) .axis-text h3{font-size:clamp(28px,7.4vw,52px)}.axes-home .axis:nth-child(4) .axis-text h3{font-size:clamp(39px,9vw,60px)}}
+@media(max-width:390px){.axes-home .axis:nth-child(3) .axis-text h3{font-size:clamp(25px,7vw,30px)}}
 
-/* Home: Clínica e O Coletivo com títulos na mesma altura da primeira linha */
+/* Home: títulos dos cards 01 e 02 alinhados na mesma altura */
 .axes-home .axes-grid>.axis:nth-child(-n+2){display:grid;grid-template-rows:auto 1fr auto}
 .axes-home .axes-grid>.axis:nth-child(-n+2) .axis-text{margin-top:0;align-self:start;padding-top:58px}
 .axes-home .axes-grid>.axis:nth-child(-n+2) .axis-footer{margin-top:0}
