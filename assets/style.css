@@ -238,3 +238,7 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 .study-option-card .destaque-roxo{font-weight:700;color:#4b006e}
 .study-option-card .destaque-laranja{font-weight:700;color:#ec8d42}
 @media(max-width:700px){.study-options-grid{grid-template-columns:1fr}}
+
+/* Formação: cartão único informativo para Grupos de Estudo */
+.formation-one-card{grid-template-columns:minmax(0,620px);justify-content:center}
+.formation-one-card .section-tile{min-height:0}
