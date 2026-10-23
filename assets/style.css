@@ -248,3 +248,7 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 
 /* Acolhimento na home: terapia? com tipografia de caminhos em laranja */
 .home-acknowledgement h2 em{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:400;color:var(--coral);letter-spacing:-.075em;text-transform:none}
+
+/* Acolhimento da home: manter Está procurando junto mesmo em telas pequenas */
+.home-acknowledgement h2 .acknowledgement-lead{display:inline-block;white-space:nowrap}
+@media(max-width:700px){.home-acknowledgement h2{font-size:clamp(27px,8vw,55px)}}
