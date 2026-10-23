@@ -252,3 +252,21 @@ html{scroll-behavior:smooth}body{min-height:100vh}body a:focus-visible,body butt
 /* Acolhimento da home: manter Está procurando junto mesmo em telas pequenas */
 .home-acknowledgement h2 .acknowledgement-lead{display:inline-block;white-space:nowrap}
 @media(max-width:700px){.home-acknowledgement h2{font-size:clamp(27px,8vw,55px)}}
+
+/* Fotos de profissionais no celular: enquadramento para preservar rosto e testa */
+@media(max-width:700px){
+  .people-cards .bio-image,
+  .supervision-profiles .bio-image{
+    aspect-ratio:4/5;
+    height:auto;
+    min-height:0;
+    align-self:start;
+  }
+  .people-cards .bio-image img,
+  .supervision-profiles .bio-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center top;
+  }
+}
